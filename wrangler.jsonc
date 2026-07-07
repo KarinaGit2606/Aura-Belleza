@@ -1,8 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "tanstack-start-app",
+  "name": "portafolio2",
   "compatibility_date": "2026-07-07",
   "compatibility_flags": ["nodejs_compat"],
   "main": "src/server.ts",
-  "name": "portafolio2",
+  "main": "dist/server/server.js",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  }
 }
