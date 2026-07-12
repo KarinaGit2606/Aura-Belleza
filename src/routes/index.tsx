@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
-import heroSalon from "@/assets/hero-salon.jpg";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import team1 from "@/assets/team-1.jpg";
-import team2 from "@/assets/team-2.jpg";
-import team3 from "@/assets/team-3.jpg";
+import heroSalon from "@/assets/hero-salon.webp";
+import gallery1 from "@/assets/gallery-1.webp";
+import gallery2 from "@/assets/gallery-2.webp";
+import gallery3 from "@/assets/gallery-3.webp";
+import gallery4 from "@/assets/gallery-4.webp";
+import team1 from "@/assets/team-1.webp";
+import team2 from "@/assets/team-2.webp";
+import team3 from "@/assets/team-3.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -27,12 +27,12 @@ export const Route = createFileRoute("/")({
 });
 
 const services = [
-  { icon: Scissors, name: "Cortes", desc: "Estilos personalizados que realzan tu esencia.", price: "Desde $35" },
-  { icon: Palette, name: "Color", desc: "Balayage, mechas y coloración profesional.", price: "Desde $80" },
-  { icon: Sparkles, name: "Tratamientos", desc: "Hidratación profunda y keratina.", price: "Desde $50" },
-  { icon: Flower2, name: "Uñas", desc: "Manicura, pedicura y nail art.", price: "Desde $30" },
-  { icon: Brush, name: "Maquillaje", desc: "Día, noche y eventos especiales.", price: "Desde $60" },
-  { icon: Heart, name: "Spa Facial", desc: "Limpieza, hidratación y antiedad.", price: "Desde $70" },
+  { icon: Scissors, name: "Cortes", desc: "Estilos personalizados que realzan tu esencia.", price: "Desde $35000" },
+  { icon: Palette, name: "Color", desc: "Balayage, mechas y coloración profesional.", price: "Desde $80000" },
+  { icon: Sparkles, name: "Tratamientos", desc: "Hidratación profunda y keratina.", price: "Desde $50000" },
+  { icon: Flower2, name: "Uñas", desc: "Manicura, pedicura y nail art.", price: "Desde $30000" },
+  { icon: Brush, name: "Maquillaje", desc: "Día, noche y eventos especiales.", price: "Desde $60000" },
+  { icon: Heart, name: "Spa Facial", desc: "Limpieza, hidratación y antiedad.", price: "Desde $70000" },
 ];
 
 const team = [
